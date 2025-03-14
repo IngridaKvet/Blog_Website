@@ -143,7 +143,6 @@ footer{
 }
 
 /* Media Quieres */
-
 @media screen and (max-width: 1038px) {
     main{
         margin-inline: 2.1rem; 
@@ -174,6 +173,4 @@ footer{
         display: flex;
         justify-content: center;
     }
-
-
 }
