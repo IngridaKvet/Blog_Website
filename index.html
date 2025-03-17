@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header-wrapper">
             <div class="brand-name">
                 <h1 class="brand-name__headline">Living the <span class="no-wrap">simple life</span></h1>
@@ -73,13 +73,13 @@
                 </div>
             </article>
         </div>
-        <div class="aside-wrapper">
-            <aside class="aside-about-me" aria-label="Aside about author">
+        <aside class="aside-content" aria-label="Aside about author and recent posts">
+            <div class="aside-about-me" aria-label="Aside about author">
                 <h2 class="aside-headline uppercase">About me</h2>
                 <img class="aside__photo-img" src="./img/about-me.jpg" alt="Author profile"> 
                 <p class="aside__profile-figcaption">I find life better, and I'm happier, when things are nice and simple.</p> 
-            </aside>
-            <aside class="aside-recent-posts" aria-label="Aside about recent posts">
+            </div>
+            <div class="aside-recent-posts" aria-label="Aside about recent posts">
                 <h2 class="aside-headline uppercase">Recent posts</h2>
                 <div class="aside-post-wrapper">
                     <img class="aside__photo-img" src="./img/food.jpg" alt="Plate with chopsticks and dumplings"> 
@@ -93,8 +93,8 @@
                     <img class="aside__photo-img" src="./img/deco.jpg" alt="Vase with large green leaves"> 
                     <a class="aside-links" href="./recent-posts.html" >Simple decorations</a>
                 </div>
-            </aside> 
-        </div>
+            </div> 
+        </aside>
     </main>
     <footer>
         <p class="footer__text">Living the <span class="no-wrap">Simple life</span></p>

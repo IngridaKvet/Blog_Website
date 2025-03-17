@@ -4,10 +4,6 @@
     src: url('fonts/Segoe\ UI.ttf') format("ttf");
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 .uppercase{
     text-transform: uppercase;
 }
@@ -20,13 +16,17 @@ html{
     font-family: inherit;
 }
 
-*{
+:root{
     font-size: 62.5%; /* Sets base to 10px for easier calculation with rem */ 
     font-family: "Ubuntu", sans-serif;
+    line-height: 2.8rem;
+    scroll-behavior: smooth;
+}
+
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 2.8rem;
 }
 
 img{
@@ -35,7 +35,7 @@ img{
 }
 
 /* Header */
-header{
+.header{
     display: flex;
     padding-top: 10.5rem;
     padding-bottom: 10.5rem;
@@ -111,7 +111,7 @@ main{
     margin-bottom: 3rem;
 }
 
-.aside-wrapper{
+.aside-content{
     display: flex;
     flex-direction: column;
     gap: 4.5rem;
